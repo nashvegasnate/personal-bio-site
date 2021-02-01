@@ -13,6 +13,7 @@ h1 {
 }
 
 h2 {
+  display: inline-flex;
   font-size: 22px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color:rgb(64, 60, 124);

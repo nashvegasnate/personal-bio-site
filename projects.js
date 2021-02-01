@@ -40,7 +40,7 @@ const createProjectCards = (taco) => {
 
   for (let [i, element] of taco.entries()) {
     domString += `<div class="card" style="width: 18rem;" id=${i}> 
-                    <img src=${element.screenshot} class="card-img-top" alt="blah">
+                    <div class="img-container" style="background-image: url('${element.screenshot}');"</div>
                       <div class="card-body">
                         <p class="card-text">${element.title}</p>
                         <p class="card-text">${element.description}</p>
@@ -51,6 +51,7 @@ const createProjectCards = (taco) => {
                       </div>
                   </div>`;
   }
+  
   printToDom('#projects', domString);
 }
 
