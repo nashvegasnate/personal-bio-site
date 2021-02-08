@@ -1,0 +1,27 @@
+body {
+  display: block;
+  background-color: rgb(47, 146, 163);
+  margin: 12px;
+}
+
+h1 {
+  display: flex;
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  color:rgb(17, 36, 51);
+}
+
+h2 {
+  display: inline-flex;
+  font-size: 22px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:rgb(64, 60, 124);
+  font-style: oblique;
+  background-color: royalblue;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+}
